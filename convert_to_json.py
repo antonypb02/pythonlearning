@@ -10,8 +10,9 @@ class Person:
 
 
 
-p1=Person("alice",30)
-
+name=input("enter the name")
+age=input("eter your age")
+p1=Person(name,age)
 res = json.dumps(p1.__dict__)
 
 print(res)
